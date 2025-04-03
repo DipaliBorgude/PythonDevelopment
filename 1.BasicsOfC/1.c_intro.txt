@@ -1,0 +1,18 @@
+=) Compilation Process :-
+
+There are four stages of compilation process 
+1. Preprocessing 
+2. Compilation
+3. Assembly
+4. Linker
+
+=> 1. Preprocessing 
+   - Preprocessing handles the directive that start with # symbol.Such as #include(used for including header file) and #define
+     (used for define macros).
+
+   - It removes comments,spaces , expands macros and include header file.Then prepare the code for next stage.
+
+   - This preprocessed code is then save as temporary file with .i extension.
+
+=> 2. Compilor 
+   - Compilor is a software This preprocessed code is then 
