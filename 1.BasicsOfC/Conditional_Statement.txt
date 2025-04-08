@@ -1,0 +1,14 @@
+                               
+                               
+                                  Nested if and nested if-else conditional statement 
+
+
+=) Nested If(if inside another if) :
+
+  
+
+                                                Switch statement
+
+=> Ambiguity error : When compilor gets confuse,in such case of switch statement ambiguity error is occur.
+   For e.g. if we provide values to some case are integer or other cases are character,then in switch statement 
+   ambiguity error is occured.
