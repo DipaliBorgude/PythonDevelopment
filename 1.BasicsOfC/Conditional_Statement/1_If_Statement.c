@@ -18,6 +18,8 @@ int main()
 */
 
 
+
+
 // 2) Find the greater no from three no using if conditional statement. //
 
 /*
@@ -42,6 +44,8 @@ int main()
 	}
 }
 */
+
+
 
 
 // 3) Find a given year is a leap year or not.
@@ -88,6 +92,8 @@ int main()
 */
 
 
+
+
 // 5) Check students is lie in which marks grade.
 
 /*
@@ -114,6 +120,8 @@ int main()
 }
 */
 
+
+
 // 6) Check whether a number is divisible by 5 and 11.
 
 /*
@@ -134,6 +142,9 @@ int main()
 	return 0;
 } */
 
+
+
+
 // 7) Check whether a given number is three digit or not.
 
 /*
@@ -152,19 +163,65 @@ int main()
 */
 
 
+
+
 // 8) Check the given character is Uppercase or not.
 
+/*
 #include<stdio.h>
 int main()
 {
 	char ch;
-	printf("Enter a ch :");
+	printf("Enter a ch : ");
 	scanf("%c",&ch);
 	
 	if(ch>='A' && ch<='Z')
 	{
-		printf("The given character is uppercase : %c");
+		printf("The given character is uppercase : %c",ch);
 	}
 	return 0;
-
 }
+*/
+
+
+
+
+// 9) Check if given character is vowel or not.
+
+/*
+#include<stdio.h>
+int main()
+{
+	char ch;
+	printf("Enter a character : ");
+	scanf("%c",&ch);
+	
+	if(ch=='a' || ch=='e' || ch=='i' || ch=='o'|| ch=='u' || ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
+	{
+		printf("The given character is vowel.");
+	}
+	printf("The given character is consonent.");
+	return 0;
+}
+*/
+
+
+
+
+// 10) voting eligibility.
+
+/*
+#include<stdio.h>
+int main()
+{
+	int age;
+	printf("Enter a age here:");
+	scanf("%d",&age);
+	
+	if(age>=18)
+	{
+		printf("Your eligible for voting.");
+	}
+	return 0;
+}
+*/
