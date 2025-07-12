@@ -36,8 +36,12 @@ int main()
 	
 	if(x%2 == 0)
 	{
-		printf("Enter number ")
+		printf("Enter number is even. ");
 	}
+	else
+	{
+	    printf("Enter number is odd.");
+    }
 }*/
 
 
@@ -205,7 +209,11 @@ int main()
 }*/
 
 
-// 10) Check number is divisible by 5 and 11 or not.
+
+
+                                               //   Homework : 18 jun   //
+
+// Example 1) Check number is divisible by 5 and 11 or not.
 
 /*
 #include<stdio.h>
@@ -224,7 +232,100 @@ int main()
 		printf("Entered number is not divisible by both 5 and 11.");
 	}
 	return 0;
+}*/
+
+                                       
+//  Example 2 : Write a " C " program to check whether given char is alphabet or not.
+/*
+#include<stdio.h>
+int main()
+{
+	char ch;
+	printf("Enter char here : ");
+	scanf("%c",&ch);
+	
+	if(ch>='a' ||  ch<='z' ||  ch>='A' ||  ch<='Z')
+	{
+		printf("Entered char is alphabet.");
+	}
+	else
+	{
+		printf("Entered char is not alphabet.");
+	}
 }
 */
+
+
+//  Example 3 : Write a "C" program to check whether given char is lowercase or uppercase.
+/*
+#include<stdio.h>
+int main()
+{
+	char ch;
+    printf("Entered char here :");
+    scanf("%c",&ch);
+    
+    if(ch>='A' && ch<='Z')
+    {
+    	printf("Entered character is uppercase.");
+	}
+	else
+	{
+		printf("Entered character is lowercase.");
+	}
+}
+*/
+
+
+// Example 4 : Write a "C" program to check whether entered value is digit or not.
+/*
+#include<stdio.h>
+int main()
+{
+	int x;
+	printf("Entered no. here : ");
+	scanf("%d",&x);
+	
+	if(x>=0 && x<=9)
+	{
+		printf("Entered no. is digit.");
+	}
+	else
+	{
+		printf("Entered no. is not a digit.");
+	}
+}*/
+
+
+//  Example 5 : Write a program to check whether a given input basic salary for an employee and calculate gross salary.
+
+
+#include<stdio.h>
+int main()
+{
+	int salary;
+	printf("Enter employee salary here :");
+	scanf("%d",&salary);
+	
+	float HRA;
+	printf("Enter company HRA here : ");
+	scanf("%f",&HRA);
+	
+	float DA;
+	printf("Enter company DA here :");
+	scanf("%f",&DA);
+	
+	float gross_salary = HRA*DA*salary;
+	
+	if(salary>=10000)
+	{
+		printf("Employee gross salary is : %.2f",&gross_salary);
+	}
+	else
+	{
+		printf("Employee gross salary is not available.");
+	}
+}
+
 
 

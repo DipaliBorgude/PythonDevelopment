@@ -130,14 +130,25 @@ int main()
 }*/
 
 
-// 7) CHeck whether given character is lowercase alphabet also consonent.
-
+// 7) Check whether given character is lowercase alphabet also consonent.
+/*
 #include<stdio.h>
 int main()
 {
 	char ch;
 	printf("Enter a character here : ");
-	scanf("%c"&ch);
+	scanf("%c",&ch);
 	
-	if(ch>='a' && ch)
-}
+	if(ch>='a' && ch<='z')
+	{
+		printf("Given character is lowercase character.\n");
+		
+		if(ch!='a' && ch!='i' && ch!='o' && ch!='u' && ch!='e')
+		{
+			printf("Given character is also consonent.\n");
+		}
+	}
+}*/
+
+
+// 8) 

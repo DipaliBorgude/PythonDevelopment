@@ -1,4 +1,4 @@
-/* 1) Example of binary operator with " + " arithmatic operators.
+ /* 1) Example of binary operator with " + " arithmatic operators.
 
 #include<stdio.h>
 int main()

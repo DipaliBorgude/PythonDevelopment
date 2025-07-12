@@ -1,8 +1,157 @@
-                                                      // While loop  
-                                                      
+                                   ////           While loop         ////
+
 // Its a pretested loop,based on the condition.
 
-// 1) Print 1 to 10 using while loop.
+
+//  1) Print 1 to 10 :
+/*
+#include<Stdio.h>
+int main()
+{
+	int i=0;
+	
+	while(i<=10)
+	{
+		printf("%d\n",i);
+		i++;
+	}
+}*/
+
+
+//  2) Print DIPALI,20 times.
+
+/*
+#include<stdio.h>
+int main()
+{
+	int i=0;
+	
+	while(i<=20)
+	{
+		printf("Dipali\n");
+		i++;
+	}
+}*/
+
+
+
+//  3) Print the addition.
+/*
+#include<Stdio.h>
+int main()
+{
+	int i=1;
+	int sum=0;
+	
+	while(i<=5)
+	{
+		sum=sum+i;
+		i++;
+	}
+	printf("%d\n",sum);
+}*/
+
+
+                                                //   Homework   = 24 jun 2025   //
+                                                
+                                                
+ // 4) 5 table by using while loop.
+ /*
+ #include<stdio.h>
+ int main()
+ {
+ 	int i=1;
+ 	int j;
+ 	printf("Enter here number :");
+ 	scanf("%d",&j);
+ 	
+ 	while(i<=10)
+ 	{
+ 	  printf("%d*%d=%d\n",j,i,j*i);
+ 	  i++;
+	 }
+ }*/
+ 
+ 
+ // 5) Write a program to calculate a sum of even numbers between 1 to 10.
+ /*
+ #include<stdio.h>
+ int main()
+ {
+ 	int number=1;
+ 	int sum_of_even=0;
+ 	
+ 	while(number<=10)
+ 	{
+ 		if(number%2 == 0)
+ 		{
+ 		   sum_of_even=sum_of_even+number;	
+		}
+		number++;
+	}
+	printf("Sum of even numbers between 1 to 10 : %d\n",sum_of_even);
+ } */
+ 
+ 
+ //  6) Write a program to calculate a sum of odd numbers between 1 to 10.
+ /*
+ #include<stdio.h>
+ int main()
+ {
+ 	int number=1;
+ 	int sum_of_odd=0;
+ 	
+ 	while(number<=10)
+ 	{
+ 		if(number%2 != 0)
+ 		{
+ 			sum_of_odd=sum_of_odd+number;
+		}
+		number++;
+	}
+	printf("Sum of odd bet 1 to 10 is : %d\n",sum_of_odd);
+ }*/
+ 
+ 
+ 
+ //  7) Write a program to add number between 1 to 10.
+ /*
+ #include<stdio.h>
+ int main()
+ {
+ 	int i=1;
+ 	int sum=0;
+ 	
+ 	while(i<=10)
+ 	{
+ 		sum=sum+i;
+ 		i++;
+	 }
+	printf("Sum of numbers from 1 to 10 : %d",sum);
+ }*/
+ 
+ 
+ //  8) How many times while loop is executed.
+ /*
+ #include<stdio.h>
+ int main()
+ {
+ 	int i=0;
+ 	int count=0;
+ 	
+ 	while(i<=10)
+ 	{
+ 		printf("%d\n",i);
+ 		i++;
+ 		count++;
+	 }
+	 printf("How many times executed : %d\n",count);
+ }*/
+ 
+  
+                                                    
+
+// 9) Print 1 to 10 using while loop.
 /*
 #include<Stdio.h>
 int main()
@@ -17,7 +166,8 @@ int main()
 }*/
 
 
-// 2) Print 10 to 1.
+
+// 10) Print 10 to 1.
 /*
 #include<stdio.h>
 int main()
@@ -32,7 +182,7 @@ int main()
 }*/
 
 
-// 3)print square of 1 to 10.
+// 11)print square of 1 to 10.
 /*
 #include<stdio.h>
 int main()
@@ -47,8 +197,7 @@ int main()
 }*/
 
 
-// 4) Print the cube for 1 to 10.
-
+// 12) Print the cube for 1 to 10.
 /*
 #include<stdio.h>
 int main()
@@ -63,8 +212,7 @@ int main()
 }*/
 
 
-// 5) Print the table.
-
+// 13) Print the table.
 /*
 #include<stdio.h>
 int main()
@@ -81,7 +229,8 @@ int main()
 	}
 }*/
 
-// 6) Print the even no and their sum.
+
+// 14) Print the even no and their sum.
 /*
 #include<stdio.h>
 int main()
@@ -103,7 +252,7 @@ int main()
 }*/
 
 
-// 7) Print the odd no and their sum.
+// 15) Print the odd no and their sum.
 /*
 #include<stdio.h>
 int main()
@@ -126,7 +275,7 @@ int main()
 } */
 
 
-// 8) Print 1 to 10 and then sum of their.
+// 16) Print 1 to 10 and then sum of their.
 /*
 #include<stdio.h>
 int main()
@@ -144,7 +293,7 @@ int main()
 }*/
 
 
-// 9) Print the factorial.
+// 17) Print the factorial.
 /*
 #include<Stdio.h>
 int main()
@@ -162,7 +311,7 @@ int main()
 }*/
 
 
-// 10) Find the factorial by decrement way.
+// 18) Find the factorial by decrement way.
 /*
 #include<Stdio.h>
 int main()
@@ -179,7 +328,7 @@ int main()
 }*/
 
 
-// 11) Reverse the number.
+// 19) Reverse the number.
 /*
 #include<stdio.h>
 int main()
@@ -199,7 +348,7 @@ int main()
 }*/
 
 
-// 12) Reverse the number with user.
+// 20) Reverse the number with user.
 /*
 #include<stdio.h>
 int main()
@@ -223,7 +372,7 @@ int main()
 
 
 
-//  13) Print the palindrom number.
+//  21) Print the palindrom number.
 /*
 #include<stdio.h>
 int main()
@@ -257,7 +406,7 @@ int main()
 
 
 
-//  14) Armstrong number.
+//  22) Armstrong number.
 
 /*
 #include<Stdio.h>
@@ -292,7 +441,7 @@ int main()
 
 
 
-//  15) Fibonacci series.
+//  23) Fibonacci series.
 /*
 #include<stdio.h>
 int main()
@@ -313,7 +462,7 @@ int main()
 
 
 
-// 16) find sum of digit of given no.
+// 24) find sum of digit of given no.
 
 /*
 #include<stdio.h>
@@ -334,4 +483,36 @@ int main()
 		num=num/10;
 	}
 	printf("%d",sum);
+}*/
+
+
+
+
+
+
+
+                                                        //  Nested while loop  //
+                                                        
+// print two varibales.
+
+/*
+#include<stdio.h>
+int main()
+{
+	int i=1;
+	
+	
+	while(i<=5)
+	{
+		
+		int j=1;
+		
+		while(j<=3)
+		{
+			printf("%d",j);
+			j++;
+		}
+		printf("\n");
+		i++;
+	}
 }*/

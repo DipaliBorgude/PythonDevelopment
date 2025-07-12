@@ -1,5 +1,123 @@
-// 1) Print 1 to 10.
+// 1) Print number from 1 to 10.
+/*
+#include<Stdio.h>
+int main()
+{
+	int i;
+	
+	for(i=0; i<=10; i++)
+	{
+		printf("Number from 1 to 10 : %d\n",i);
+	}
+} */
 
+
+//  2) Sum of 1 to 10.
+/*
+#include<stdio.h>
+int main()
+{
+	int i; 
+	int sum=0;
+	
+	for(i=1; i<=10; i++)
+	{
+		sum=sum+i;
+	}
+	printf("Sum of number from 1 to 10 : %d",sum);
+}*/
+
+
+// 3) Write a program to print a char from a to z.
+/*
+#include<Stdio.h>
+int main()
+{
+	char ch;
+	
+	for(ch='a'; ch<='z'; ch++)
+	{
+		printf("%c\n",ch);
+	}
+}*/
+
+
+                                                //     Homework  =  25 jun 2025    //
+
+
+
+//  4) Write a program to calculate factorial.
+/*
+#include<stdio.h>
+int main()
+{
+	int m;
+	printf("Enter i/p no here :");
+	scanf("%d",&m);
+	
+	int i;
+	
+	int fact=1;
+	
+	for(i=m; i>=1; i--)
+	{
+		fact=fact*i;
+	}
+	printf("Factoril is : %d",fact);
+}*/
+
+
+
+
+//  5) Write a program to generate fibonacci series.
+/*
+#include<stdio.h>
+int main()
+{
+	int a=0;
+	int b=1;
+	int c=0;
+	int x;
+	
+	for(x=1; x<=20; x++)
+	{
+	  printf(" %d ",c);
+	  a=b;
+	  b=c;
+	  c=a+b;
+    }
+}*/
+
+
+
+//  6) Write a program to find out even and odd also thier sum.
+/*
+#include<stdio.h>
+int main()
+{
+	int i;
+	int sum_even=0;
+	int sum_odd=0;
+	
+	for(i=1; i<=20; i++)
+	{
+		if(i%2 == 0)
+		{
+			sum_even=sum_even+i;
+			printf("Even : %d\n", i);			
+	 }
+		else
+		{
+			sum_odd=sum_odd+i;
+			printf("Odd : %d\n",i);
+		}
+	}
+	printf("Sum of even no are as : %d\n",sum_even);
+	printf("Sum of odd no are as : %d\n",sum_odd);
+}*/
+
+
+// 7) Print 1 to 10.
 /*
 #include<stdio.h>
 int main()
@@ -15,8 +133,7 @@ int main()
 */
 
 
-// 2) Print 10 to 1.
-
+// 8) Print 10 to 1.
 /*
 #include<stdio.h>
 int main()
@@ -31,8 +148,7 @@ int main()
 }*/
 
 
-// 3) Print a square for 1 to 10.
-
+// 9) Print a square for 1 to 10.
 /*
 #include<stdio.h>
 int main()
@@ -48,8 +164,7 @@ int main()
 */
 
 
-// 4) Print a cube for 1 to 10.
-
+// 10) Print a cube for 1 to 10.
 /*
 #include<stdio.h>
 int main()
@@ -65,8 +180,7 @@ int main()
 */
 
 
-// 5) Print a table.
-
+// 11) Print a table.
 /*
 #include<Stdio.h>
 int main()
@@ -85,8 +199,7 @@ int main()
 */
 
 
-// 6) Print even no.
-
+// 12) Print even no.
 /*
 #include<stdio.h>
 int main()
@@ -105,8 +218,7 @@ int main()
 }
 */
 
-//7) Print odd no.
-
+// 13) Print odd no.
 /*
 #include<stdio.h>
 int main()
@@ -123,8 +235,7 @@ int main()
 }*/
 
 
-// 8) Print the sum for 1 to 10 with user.
-
+// 14) Print the sum for 1 to 10 with user.
 /*
 #include<stdio.h>
 int main()
@@ -141,7 +252,7 @@ int main()
 
 
 
-// 9) Print the sum for 1 to 10 with user.
+// 15) Print the sum for 1 to 10 with user.
 /*
 #include<stdio.h>
 int main()
@@ -158,8 +269,8 @@ int main()
 	printf("Sum of 1 to 10 : %d", sum);
 }*/
 
-// 10) Print the sum of even no thier sum.
 
+// 16) Print the sum of even no thier sum.
 /*
 #include<stdio.h>
 int main()
@@ -179,8 +290,7 @@ int main()
 
 
 
-//  11) Print the sum of odd no.
-
+//  17) Print the sum of odd no.
 /*
 #include<stdio.h>
 int main()
@@ -200,8 +310,7 @@ int main()
 */
 
 
-// 12) Print both even and odd no.
-
+// 18) Print both even and odd no.
 /*
 #include<stdio.h>
 int main()
@@ -223,8 +332,7 @@ int main()
 */
 
 
-// 13) Print the factorial of entered no with user.
-
+// 19) Print the factorial of entered no with user.
 /*
 #include<stdio.h>
 int main()
@@ -242,7 +350,9 @@ int main()
 	printf("Print the factorial value here : %d", fact);
 }*/
 
-// 14) Print the factorial of entered no.
+
+
+// 20) Print the factorial of entered no.
 /*
 #include<stdio.h>
 int main()
@@ -259,8 +369,7 @@ int main()
 }*/
 
 
-//  15) print the 563 in reverse order.
-
+//  21) print the 563 in reverse order.
 /*
 #include<stdio.h>
 int main()
@@ -281,8 +390,7 @@ int main()
 */
 
  
-//   16) Print the palindrom number.
-
+//  22) Print the palindrom number.
 /*
 #include<stdio.h>
 int main()
@@ -315,8 +423,7 @@ int main()
 }*/
 
 
-// 17) Armstrong no.
-
+// 23) Armstrong no.
 /*
 #include<stdio.h>
 int main()
@@ -354,8 +461,7 @@ int main()
 }*/
 
 
-// 17) Addition of 3 no.
-
+//  24) Print addition of three number.
 /*
 #include<stdio.h>
 int main()
@@ -369,7 +475,7 @@ int main()
 }*/
 
 
-//  18) Increments of three varibales.
+//  25) Increments of three varibales.
 /*
 #include<stdio.h>
 int main()
@@ -386,7 +492,7 @@ int main()
 }*/
 
 
-// 19) Two variables increment n decrement.
+// 26) Two variables increment n decrement.
 
 /*
 #include<stdio.h>
@@ -401,7 +507,7 @@ int main()
 }*/
 
 
-// 20) print i varibale.
+// 27) print i varibale.
 /*
 #include<stdio.h>
 int main()
