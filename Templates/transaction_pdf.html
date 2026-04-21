@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bank Management Project</title>
+
+        <style>
+          @page {
+            size: A4;
+            margin: 20px;
+          }
+        </style>
+    </head>
+    <body>
+        <h2 font-size:"34px" font-weight:"bolder;" " style= "text-align:center;">--Transaction History--</h2>
+
+        <table border="1" width="100%" cellpadding="10px" style ="border-collapse: collapse;" margin-top:"20px;">
+          <tr font-size:"24px;" font-weight:"bold;">
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Type</th>
+          </tr>
+
+          {% for t in transactions %}
+          <tr font-size:"lighter;" cellpadding="10px">
+            <td>{{ t.date }}</td>
+            <td>{{ t.amount }}</td>
+            <td>{{ t.transaction_type }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+
+    </body>
+</html>
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bank Management Project</title>
+
+         {%load static %}
+        <link rel="stylesheet" href="/static/transactions.css">
+    </head>
+    <body>
+        <nav class="navbar">         <!--to create navigation bar for service page-->
+         <div class="Transaction">       <!-- inside it we will write all our nav bar details-->
+            <h1>Transactions</h1>
+         </div>
+        </nav>
+    
+        <div class="message_error">{{error}}</div>
+        <div class="message_success">{{success}}</div>
+        
+         <ul>
+            <li><h2> Your Balance: ₹ {{ balance }}</h2></li>
+        </ul>
+
+        
+        <!-- CREDIT -->
+         <ul>
+            <li><h3> Credit Amount :</h3></li>
+        </ul>
+        <form method="POST">
+          {% csrf_token %}
+          <input type="hidden" name="action" value="credit">
+          <input type="number" name="amount" placeholder="Enter amount" required>
+          <button type="submit">Credit</button>
+        </form>
+
+
+        <!-- DEBIT -->
+        <ul>
+            <li><h3> Debit Amount :</h3></li>
+        </ul>
+        <form method="POST" >
+          {% csrf_token %}
+          <input type="hidden" name="action" value="debit">
+          <input type="number" name="amount" placeholder="Enter amount" required>
+          <button type="submit">Debit</button>
+        </form>
+    </body>
+</html>

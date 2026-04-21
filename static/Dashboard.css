@@ -1,0 +1,42 @@
+*{
+    text-decoration: none;;
+}
+
+body {
+    background-image:url(https://assets.bizclikmedia.net/580/6cc7fab927c0f3fdfa1763604714054c:2ac3fdd9af16eac07c03b4a968f89b55/gettyimages-1368593225.jpg);
+    background-size:cover; background-repeat:no repeat; margin:0px;
+}
+
+.navbar{
+    background:rgb(6, 6, 56);  width:100%;  padding: 10px 20px;
+}
+
+.services{
+    display:flex; 
+}
+
+li{
+    list-style:none; 
+}
+
+.services a{
+    color:white; font-size: 27px; font-weight: bolder; padding-left: 650px; text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Dashboard {
+    display: flex;
+    flex-direction: column;   /* services are become vertical */
+    gap: 20px;                /* space between services */
+}
+
+
+.Dashboard a {
+    background-color: whitesmoke; color: black; padding: 20px; font-size:larger; font-weight: bolder; border-radius: 10px;
+    text-align: center; margin-top:50px;  width:300px;  margin-left:600px;
+}
+
+
+.Dashboard a:hover {
+    background-color: #75b0eb;
+}

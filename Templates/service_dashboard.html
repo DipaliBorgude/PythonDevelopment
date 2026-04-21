@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bank Management Project</title>
+ 
+        {% load static %}
+        <link rel="stylesheet" href="/static/service_dashboard.css">
+    </head>
+    <body>
+        <nav class="navbar">         <!--to create navigation bar for service page-->
+         <div class="service">       <!-- inside it we will write all our nav bar details-->
+            <h1>Available Services</h1>
+         </div>
+        </nav>
+
+
+        <div class="message_error">{{ error }}</div>
+        <div class="message_success">{{ success }}</div>
+        
+
+        <!-- CHEQUE BOOK -->
+        <ul>
+            <li><h3>Cheque Book Request :</h3></li>
+        </ul>
+        <form method="POST">
+          {% csrf_token %}
+          <input type="hidden" name="service_type" value="cheque_book">
+          <input type="number" name="num_cheque" placeholder="Enter number of cheques" required>
+          <button type="submit">Submit Request</button>
+        </form>
+
+        <!-- DEBIT CARD -->
+        <ul>
+            <li><h3>Debit Card Request :</h3></li>
+        </ul>
+        <form method="POST">
+          {% csrf_token %}
+          <input type="hidden" name="service_type" value="debit_card">
+          <input type="text" name="pan_no" placeholder="Enter PAN number" required>
+          <button type="submit">Submit Request</button>
+        </form>
+
+        <!-- CREDIT CARD -->
+        <ul>
+            <li><h3>Credit Card Request :</h3></li>
+        </ul>
+        <form method="POST">
+          {% csrf_token %}
+          <input type="hidden" name="service_type" value="credit_card">
+          <input type="text" name="pan_no" placeholder="Enter PAN number" required>
+          <button type="submit">Submit Request</button>
+        </form>
+
+    </body>
+</html>

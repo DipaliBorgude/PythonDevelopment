@@ -1,0 +1,43 @@
+*{
+    text-decoration: none;;
+}
+
+body{
+    background-image: url(https://i0.wp.com/www.globaltrademag.com/wp-content/uploads/2024/06/shutterstock_1150180799-scaled.jpg?fit=840%2C393&ssl=1);
+    background-repeat:no-repeat; background-size:cover; margin:0px;
+}
+
+.navbar{
+    background:rgb(6, 6, 56); font-family: 'Times New Roman', Times, serif; padding:0 30px;
+}
+
+.banknav{
+    display:flex; align-items:center; justify-content:space-between;
+}
+
+.logo a{
+    font-size:45px; font-weight:600px; color:white; padding:0 15px; font-family:'Times New Roman', Times, serif;
+}
+
+li{
+    list-style:none; display:inline-block;
+}
+
+li a{
+    color:white; font-size:18px; font-weight:bold; margin-right:25px; text-decoration: underline;
+}
+
+button{
+    background-color:white; margin-left:10px; border-radius:10px; padding:10px; width:90px; height:40px;
+}
+
+button a{
+     color:black; font-weight: bold;  font-size:15px;
+}
+
+
+.Contact_Us{
+    text-align:right; font-weight:bold; margin-top:430px; color:white; font-weight:600px; font-size:25px; line-height: 0.3; 
+    margin-right: 40px; ; font-family: 'Times New Roman', Times, serif;
+}
+

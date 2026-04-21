@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+        <title>Bank Management Project</title>
+
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'transaction_history.css' %}">
+
+    </head>
+    <body>
+        <nav class="navbar">         <!--to create navigation bar for service page-->
+         <div class="transaction_history">       <!-- inside it we will write all our nav bar details-->
+            <h1>Transaction History (Last 30 days)</h1>
+         </div>
+        </nav>
+
+        <table border="1" cellpadding="10">
+          <tr>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Type</th>
+          </tr>
+
+          {% for t in transactions %}
+          <tr>
+            <td>{{ t.date }}</td>
+            <td>₹{{ t.amount }}</td>
+            <td>{{ t.transaction_type }}</td>
+          </tr>
+          {% empty %}
+
+          <tr>
+             <td colspan="3">No transactions found</td>
+          </tr>
+          {% endfor %}
+        </table>
+
+        <br>
+
+        <a href="{% url 'transaction_pdf' %}">Download PDF</a>
+
+    </body>
+</html>

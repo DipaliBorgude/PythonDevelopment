@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bank Management Project</title>
+
+        {% load static %}
+        <link rel="stylesheet" href="/static/sign_up.css">
+    </head>
+    <body>
+        <form action="{% url 'sign_up' %}"  method="POST">
+
+            {% csrf_token %}
+            <div class="sign">
+            <label>Sign Up</label><br><br>
+            </div>
+
+            <div class="title">
+            <label>Customer Id :</label>
+            <input type="text" name="customer_id" placeholder=" " required><br><br> 
+            <label>Username :</label>
+            <input type="text" name="username" placeholder=" "><br><br>
+            <label>Password :</label>
+            <input type="password" name="password_hash" placeholder=" "><br><br>
+            <label>Confirm Password :</label>
+            <input type="password" name="confirmPassword" placeholder=" "><br><br>
+            </div>
+            <button type="Submit">SignUp</button>      
+        </form>
+    </body>
+</html>

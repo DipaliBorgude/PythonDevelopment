@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bank Management Project</title>
+
+        {%load static %}
+        <link rel="stylesheet" href="/static/about_us.css">
+    </head>
+    <body>
+      <nav class="navbar">         <!--to create navigation bar for main page-->
+        <div class="banknav">       <!-- inside it we will write all our nav bar details-->
+            <div class="logo"><a href="#">KohinoorBank</a></div>     <!-- to creat clickable logo-->
+            <ul>
+                <li><a href="{% url 'mainpage' %}">Home</a></li>
+                <li><a href="{% url 'about_us' %}">About</a></li>
+                <li><a href="{% url 'Contact_Us' %}">Contact Us</a></li>
+                <button><a href="{% url 'login' %}">Login</a></button>           <!--using it we will create login button-->
+                <button><a href="{% url 'sign_up' %}">Sign up</a></button>      <!--using it we will create sign up button-->
+            </ul>
+        </div>
+       </nav>
+
+       <div class="about_us">
+        <h2><strong>About Us</strong></h2>
+        <div class="paragraph">
+        <p><strong>Kohinoor Bank</strong> is a trusted financial institution committed to delivering secure, innovative, 
+        and customer-centric banking solutions. Inspired by the brilliance and strength of the Kohinoor diamond, our bank stands 
+        as a symbol of reliability, transparency, and excellence in the financial world.
+        Founded with a vision to empower individuals and businesses, Kohinoor Bank offers a wide range of services including savings
+        accounts, loans, digital banking, and investment solutions. We strive to make banking simple, accessible, and efficient for 
+        everyone, whether in urban cities or rural communities.
+        At Kohinoor Bank, we believe that banking is not just about transactions — it’s about building lasting relationships. 
+        Our dedicated team works tirelessly to understand customer needs and provide personalized financial guidance to help achieve
+        their goals.
+        With cutting-edge technology and a strong focus on security, we ensure that your money is always safe and your banking 
+        experience is seamless. Our digital platforms enable customers to manage their finances anytime, anywhere with ease.
+        Kohinoor Bank is not just a bank — it is a partner in your financial journey, helping you grow, succeed, and shine.
+        </p>
+        </div>
+       </div>
+    </body>
+</html>

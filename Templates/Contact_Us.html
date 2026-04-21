@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <Title>Contact Us</Title>
+
+        {% load static %}
+        <link rel="stylesheet" href="/static/Contact_Us.css">
+    </head>
+    <body>
+        <nav class="navbar">         <!--to create navigation bar for main page-->
+        <div class="banknav">       <!-- inside it we will write all our nav bar details-->
+            <div class="logo"><a href="#">KohinoorBank</a></div>     <!-- to creat clickable logo-->
+            <ul>
+                <li><a href="{% url 'mainpage' %}">Home</a></li>
+                <li><a href="{% url 'about_us' %}">About</a></li>
+                <li><a href="{% url 'Contact_Us' %}">Contact Us</a></li>
+                <button><a href="{% url 'login' %}">Login</a></button>           <!--using it we will create login button-->
+                <button><a href="{% url 'sign_up' %}">Sign up</a></button>      <!--using it we will create sign up button-->
+            </ul>
+        </div>
+       </nav>
+       <div class="Contact_Us">
+        <h2>Contact Us</h2>
+        <h6>Email: info@KohinoorBank.com</h6>
+        <h6>Phone: (123) 456-7890</h6>
+        <h6>Address: 123 Main street, Pune, Maharashtra</h6>
+       </div>
+    </body> 
+</html>

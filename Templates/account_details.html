@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+        <meta charset="UTF-8">
+        <title>Bank Management Project</title>
+
+        {%load static %}
+        <link rel="stylesheet" href="/static/account_details.css">
+ </head>
+ <body>
+    <div class="container">
+      <h2><strong> Account Details</strong></h2>
+
+      <div class="card">
+        <div class="row">
+            <h4>Full Name:</h4>
+            <h5>{{ customer.first_name }} {{ customer.last_name }}</h5>
+        </div>
+
+        <div class="row">
+            <h4>Email:</h4>
+            <h5>{{ customer.email }}</h5>
+        </div>
+
+        <div class="row">
+            <h4>Phone:</h4>
+            <h5>{{ customer.phone }}</h5>
+        </div>
+
+        <div class="row">
+            <h4>Address:</h4>
+            <h5>{{ customer.address }}</h5>
+        </div>
+
+        <div class="row">
+            <h4>DOB:</h4>
+            <h5>{{ customer.dob }}</h5>
+        </div>
+
+        <div class="row">
+            <h4>Opened On:</h4>
+            <h5>{{ customer.created_at }}</h5>
+        </div>
+
+        <div class="row">
+            <h4>Account Number:</h4>
+            <h5>{{ bank.account_number }}</h5>
+        </div>
+
+        <div class="row">
+            <h4>Account Type:</h4>
+            <h5>{{ bank.account_type }}</h5>
+        </div>
+
+        <div class="row">
+            <h4>IFSC Code:</h4>
+            <h5>{{ bank.ifsc_code }}</h5>
+        </div>
+
+        <div class="row">
+            <h4>Branch:</h4>
+            <h5>{{ bank.branch_name }}</h5>
+        </div>
+
+        <div class="row">
+            <h4>Balance:</h4>
+            <h5>₹ {{ bank.balance }}</h5>
+        </div>
+      </div>
+
+    </div>
+
+
+    </body>
+</html>

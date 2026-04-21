@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bank Management Project</title>
+
+         {%load static %}
+        <link rel="stylesheet" href="/static/view_balance.css">
+    </head>
+    <body>
+        <nav class="navbar">         <!--to create navigation bar for service page-->
+         <div class="View_balance">       <!-- inside it we will write all our nav bar details-->
+            <h1>View Balance</h1>
+         </div>
+        </nav>
+
+        <div class="Balance">
+            <h2>Your Account Balance : ₹ {{ balance }}</h2>
+        </div>
+    </body>
+    
+</html>

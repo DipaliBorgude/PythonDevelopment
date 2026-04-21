@@ -1,0 +1,26 @@
+*{
+    text-decoration: none;;
+}
+
+body{
+    background-image:url(https://assets.bizclikmedia.net/580/6cc7fab927c0f3fdfa1763604714054c:2ac3fdd9af16eac07c03b4a968f89b55/gettyimages-1368593225.jpg);
+    background-size:cover; background-repeat:no repeat; margin:0px;
+}
+
+.navbar{
+    background:rgb(6, 6, 56);  width:100%;  padding: 10px 20px;
+}
+
+.services{
+    display:flex; 
+    gap:evenly;
+}
+
+li{
+    list-style:none; display:inline-block; 
+}
+
+.services a{
+    color:white; font-size: larger; font-weight: bolder; flex:1; text-align:center; padding:115px; 
+    font-family:'Times New Roman', Times, serif;
+}

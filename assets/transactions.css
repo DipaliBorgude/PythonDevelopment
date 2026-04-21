@@ -1,0 +1,46 @@
+*{
+    text-decoration: none;;
+}
+
+body {
+    background-image:url(https://assets.bizclikmedia.net/580/6cc7fab927c0f3fdfa1763604714054c:2ac3fdd9af16eac07c03b4a968f89b55/gettyimages-1368593225.jpg);
+    background-size:cover; background-repeat:no repeat; margin:0px;
+}
+
+.navbar{
+    background:rgb(6, 6, 56);  width:100%;  padding: 10px 20px;
+}
+
+.Transaction{
+    display:flex; 
+}
+
+.Transaction h1{
+    color:white; font-size: 27px; font-weight: bolder; padding-left: 650px; text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}*
+
+li{
+    color:white;
+}
+
+h2{
+     color:white; font-size: 21px; font-weight: bold;
+}
+
+h3{
+    color:white; font-size: 20px; font-weight: bold;
+}
+
+form{
+    margin-left:40px;
+}
+
+.message_error{
+    margin-top:10px; color:rgb(205, 4, 4); font-size:18px; font-weight:bold; 
+}
+
+.message_success{
+    margin-top:10px; color:rgb(6, 235, 10); font-size:18px; font-weight:bold; 
+}
+

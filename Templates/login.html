@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">                <!--lang="en" ...tells the browser and search engines what language the webpage is written in.-->
+    <head>
+        <meta charset="UTF-8">      <!--it tells browser:This webpage uses the UTF-8 character set to display text.”-->
+        <title>Bank Management Project</title>
+        
+        {% load static %}
+        <link rel="stylesheet" href="/static/login.css">
+
+    </head>
+    <body>
+        <form action="{% url 'login' %}" method="POST">
+            {% csrf_token %}
+
+            <div class="login">
+                <label>Login</label>
+            </div>
+
+            <div class="title">
+                <label>Username :</label>
+                <input type="text" name="username" ><br><br>
+                <label>Password :</label>
+                <input type="password" name="password" required><br><br>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+*{
+    text-decoration: none;;
+}
+
+body{
+    background-image: url(https://i0.wp.com/www.globaltrademag.com/wp-content/uploads/2024/06/shutterstock_1150180799-scaled.jpg?fit=840%2C393&ssl=1);
+    background-repeat:no-repeat; background-size:cover; margin:0px;
+}
+
+.navbar{
+    background:rgb(6, 6, 56); font-family:'Times New Roman', Times, serif; padding:0 30px;
+}
+
+.banknav{
+    display:flex; align-items:center; justify-content:space-between;
+}
+
+.logo a{
+    font-size:45px; font-weight:600px; color:white; padding:0 15px; font-family:'Times New Roman', Times, serif;
+}
+
+li{
+    list-style:none; display:inline-block;
+}
+
+li a{
+    color:white; font-size:18px; font-weight:bold; margin-right:25px; text-decoration: underline;
+}
+
+button{
+    background-color:white; margin-left:10px; border-radius:10px; padding:10px; width:90px;
+}
+
+button a{
+     color:black; font-weight: bold;  font-size:15px;
+}
+
+.about_us{
+     background-color:rgba(255,255,255,0.8); width:550px; height:450px; text-align:center; margin-left:500px; margin-top:100px;
+    padding:35px; border-radius:10px; box-shadow:0px 0px 15px rgba(0,0,0,0.2); padding-bottom: 6px; padding-top:2px; 
+}
+
+h2{ 
+    font-family:'Times New Roman', Times, serif; color:black; font-size:bolder; line-height: 1.5em; text-decoration: underline;
+    padding-bottom:0px;
+}
+
+.paragraph{
+    font-family:'Times New Roman', Times, serif; color:black; font-size:normal; line-height: 1.5em; 
+}
+
+strong{
+    text-decoration-line: underline; font-size: larg;
+}
+

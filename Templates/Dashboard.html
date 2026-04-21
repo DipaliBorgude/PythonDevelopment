@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bank Management Project</title>
+
+        {%load static %}
+        <link rel="stylesheet" href="/static/Dashboard.css">
+    </head>
+    <body>
+        <nav class="navbar">         <!--to create navigation bar for main page-->
+         <div class="services">       <!-- inside it we will write all our nav bar details-->
+            <ul>
+                <li><a href="{% url 'Dashboard' %}">Dashboard</a></li>
+            </ul>
+         </div>
+        </nav>
+        <div class="Dashboard">
+           <a href="{% url 'view_balance' %}">View Balance</a> 
+           <a href="{% url 'transactions' %}">Transactions</a>
+           <a href="{% url 'service_dashboard' %}">Services</a>  
+        </div>
+    </body>
+</html>

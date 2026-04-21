@@ -1,0 +1,41 @@
+*{
+    text-decoration: none;;
+}
+
+body {
+    background-image:url(https://assets.bizclikmedia.net/580/6cc7fab927c0f3fdfa1763604714054c:2ac3fdd9af16eac07c03b4a968f89b55/gettyimages-1368593225.jpg);
+    background-size:cover; background-repeat:no repeat; margin:0px;
+}
+
+.navbar{
+    background:rgb(6, 6, 56);  width:100%;  padding: 10px 20px;
+}
+
+.transaction_history{
+    display:flex; 
+}
+
+.transaction_history h1{
+    color:white; font-size: 27px; font-weight: bolder; padding-left: 580px; text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+table{
+    margin-left: 420px; margin-top: 50px; border-width: 3px; width: 50%; border-color:black; border-style:solid;  
+    margin-bottom:20px; background-color: rgba(255, 255, 255, 0.6); border-radius: 0.2px
+}
+
+td{
+     text-align: center; color:black; font-weight: lighter; font-size: larger;
+}
+
+th{ 
+    text-align: center;  color:balck; font-weight: bold; font-size: larger;;
+}
+
+a{
+    color:black; font-size:16px; font-weight: lighter; margin-left: 675px;  padding: 10px; margin-top: 900px;
+    box-sizing:border-box; border-radius: 0.2px; border-color:black;; border-width:3px; border-style:solid;  
+    background-color: rgba(255, 255, 255, 0.7); text-align:center; 
+}

@@ -1,0 +1,38 @@
+*{
+    text-decoration: none;;
+}
+
+body {
+    background-image:url(https://assets.bizclikmedia.net/580/6cc7fab927c0f3fdfa1763604714054c:2ac3fdd9af16eac07c03b4a968f89b55/gettyimages-1368593225.jpg);
+    background-size:cover; background-repeat:no repeat; margin:0px;
+}
+
+.navbar{
+    background:rgb(6, 6, 56);  width:100%;  padding: 10px 20px;
+}
+
+.logout{
+    display:flex; 
+}
+
+li{
+    list-style:none; 
+}
+
+.logout a{
+    color:white; font-size: 27px; font-weight: bolder; padding-left: 650px; text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logout_button h2{
+    font-weight: bolder; color:white; padding-left:10px; text-align:left; margin-top:50px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logout_button button{
+    font-weight: bolder; color:white; margin-left:10px; text-align:center;  width:65px; height:25px; border-color: black;
+}
+
+.logout_button a{
+    font-weight: bolder; color:Black; text-align:center; font-family: 'Times New Roman', Times, serif;
+}
